@@ -1,0 +1,15 @@
+#wrapper,
+main,
+#content,
+#sidebar,
+aside,
+section{
+	@include box;
+	// background: #e1decb;
+}
+
+.layout {
+	@include box;
+	width:400px;
+	margin:0 auto;
+}

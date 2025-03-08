@@ -1,0 +1,20 @@
+.pdf{
+	display: block;	
+	 .layout{				
+			.rez_pdf {
+				@include box;
+				background: #fff;
+				height: 800px;
+				width: 420px;
+				img{
+					max-width: 84%;
+				}
+			}
+			
+		}
+}
+
+
+
+
+

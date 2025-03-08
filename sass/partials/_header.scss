@@ -1,0 +1,28 @@
+header {
+	@include box;
+	margin: 42px 0 32px 0;
+	.layout{
+		width: 96%;
+		.logo{display: block;
+		ul{display: flex;
+			li{
+				img{
+					max-width: 44%;
+				}				
+			}
+			.qr{
+				max-width: 64%;	
+			}
+		h3{ position: relative;
+			font-family: "Microsoft Sans Serif";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 12px;
+			margin-right: 16px;
+		}
+	}
+}
+}
+}
+
