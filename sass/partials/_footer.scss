@@ -1,0 +1,38 @@
+footer {
+	@include box;
+	background: #fff;
+	height: 120px;
+	.ico_menu{
+		display: flex;
+		justify-content: space-between;
+		li{ display: block;
+			margin: 15px 0 0 42px;
+			img{
+				max-width: 36%;
+			}
+		}
+	}
+	.text_menu{
+		display: flex;
+		justify-content: space-around;
+			.text_1{
+				margin-left: -5px;
+			}
+			.text_2{
+				margin-left: 0px;
+			}
+			.text_3{
+				margin-left: 75px;
+			}
+			p{
+				position: relative;
+				font-family: "Microsoft Sans Serif";
+				font-style: normal;
+				font-weight: 400;
+    			font-size: 12px;
+    			line-height: 19px;
+				color: #000;
+			}
+		}
+	}
+
